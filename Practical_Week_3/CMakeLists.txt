@@ -3,7 +3,7 @@
 #
 
 # Add source to this project's executable.
-add_executable (Practical_Week_3 "Practical_Week_3.cpp" "Practical_Week_3.h")
+add_executable (Practical_Week_3 "Practical_Week_3.cpp" "Practical_Week_3.h" "ApplePie.cpp" "RaspberryPie.cpp" "ApplePie.h" "RaspberryPie.h")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET Practical_Week_3 PROPERTY CXX_STANDARD 20)
